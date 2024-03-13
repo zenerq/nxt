@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           NextChat
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Polimat  je organizacija koja vam nudi široko znanje u više različitih predmetnih oblasti.
+          Vaš lični AI pomoćnik
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />

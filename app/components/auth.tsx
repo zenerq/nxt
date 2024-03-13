@@ -19,7 +19,7 @@ export function AuthPage() {
   const resetAccessCode = () => {
     accessStore.update((access) => {
       access.openaiApiKey = "";
-      access.accessCode = "";
+      access.accessCode = "CODE";
     });
   }; // Reset access code to empty string
 

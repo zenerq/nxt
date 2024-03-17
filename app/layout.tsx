@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "Polimat",
-  description: "Your personal ChatGPT Chat Bot.",
+  description: "Vaš lični AI asistent.",
   viewport: {
     width: "device-width",
     initialScale: 1,

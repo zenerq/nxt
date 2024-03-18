@@ -137,6 +137,15 @@ export const DEFAULT_MODELS = [
     },
   },
   {
+    name: "gemini-pro",
+    available: true,
+    provider: {
+      id: "google",
+      providerName: "Google",
+      providerType: "google",
+    },
+  },
+  {
     name: "gemini-pro-vision",
     available: true,
     provider: {

@@ -119,6 +119,15 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 export const DEFAULT_MODELS = [
   {
+    name: "claude-2",
+    available: true,
+    provider: {
+      id: "anthropic",
+      providerName: "Anthropic",
+      providerType: "anthropic",
+    },
+  },
+  {
     name: "gpt-4",
     available: true,
     provider: {

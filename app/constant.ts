@@ -172,15 +172,6 @@ export const DEFAULT_MODELS = [
       providerType: "openai",
     },
   },
-  {
-    name: "gemini-1.5-pro",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;

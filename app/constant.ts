@@ -128,7 +128,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "claude-3-haiku",
+    name: "claude-3-sonnet",
     available: true,
     provider: {
       id: "anthropic",
@@ -146,16 +146,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-4-turbo-preview",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
-    name: "gpt-3.5-turbo-0125",
+    name: "gpt-4-turbo",
     available: true,
     provider: {
       id: "openai",

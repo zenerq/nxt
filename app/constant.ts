@@ -122,9 +122,9 @@ export const DEFAULT_MODELS = [
     name: "Llama-3-70B-Web",
     available: true,
     provider: {
-      id: "anthropic",
-      providerName: "Anthropic",
-      providerType: "anthropic",
+      id: "openai",
+      providerName: "OpenAI",
+      providerType: "openai",
     },
   },
   {

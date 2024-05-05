@@ -155,7 +155,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-16k-0613",
+    name: "gpt-3.5-turbo-16k",
     available: true,
     provider: {
       id: "openai",

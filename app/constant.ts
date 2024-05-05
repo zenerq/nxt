@@ -120,15 +120,6 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 export const DEFAULT_MODELS = [
   {
-    name: "Llama-3-70B-Web",
-    available: true,
-    provider: {
-      id: "openai",
-      providerName: "OpenAI",
-      providerType: "openai",
-    },
-  },
-  {
     name: "gemma-2b",
     available: true,
     provider: {

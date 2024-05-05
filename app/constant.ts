@@ -110,6 +110,7 @@ export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
   "Llama-3-70B-Web": "2023-12",
   "gpt-4-1106-preview": "2023-04",
+  "gpt-4": "2023-04",
   "gemma-2b": "2023-12",
   "gpt-4-vision-preview": "2023-04",
   // After improvements,

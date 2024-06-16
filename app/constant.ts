@@ -93,7 +93,7 @@ export const Google = {
   // /api/openai/v1/chat/completions
 };
 
-export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / language
+export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 export const DEFAULT_SYSTEM_TEMPLATE = `
 You are ChatGPT, a large language model trained by {{ServiceProvider}}.
 Knowledge cutoff: {{cutoff}}

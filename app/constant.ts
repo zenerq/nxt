@@ -121,7 +121,7 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 export const DEFAULT_MODELS = [
   {
-    name: "gpt-4o",
+    name: "chatgpt-4o-latest",
     available: true,
     provider: {
       id: "openai",
@@ -130,7 +130,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-4o-mini",
+    name: "o3-mini",
     available: true,
     provider: {
       id: "openai",
@@ -139,7 +139,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-4-turbo",
+    name: "deepseek-r1",
     available: true,
     provider: {
       id: "openai",

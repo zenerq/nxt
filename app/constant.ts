@@ -130,7 +130,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "o3-mini",
+    name: "gpt-4o",
     available: true,
     provider: {
       id: "openai",
@@ -139,7 +139,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "deepseek-r1",
+    name: "gpt-4-turbo",
     available: true,
     provider: {
       id: "openai",
